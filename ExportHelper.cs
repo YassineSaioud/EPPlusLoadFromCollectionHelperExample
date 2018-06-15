@@ -15,7 +15,7 @@ namespace RLD.Extranet.Helpers
 
                 var ws = pck.Workbook.Worksheets.Add(title);
 
-                // Building Header
+                // Build Header
                 var rowIndex = 1;
                 var columnIndex = 1;
                 foreach (var header in columns)
@@ -24,7 +24,7 @@ namespace RLD.Extranet.Helpers
                     columnIndex += 1;
                 }
 
-                // Building rows
+                // Build rows
                 rowIndex = 2;
                 foreach (var item in collection)
                 {
