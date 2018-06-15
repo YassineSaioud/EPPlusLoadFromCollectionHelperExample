@@ -1,9 +1,9 @@
-﻿using RLD.Extranet.Helpers;
+using Helpers;
 using System;
 using System.Collections.Generic;
 using System.Web.Mvc;
 
-namespace RLD.Extranet.Controllers
+namespace Controllers
 {
     public class ExportController : Controller
     {
@@ -13,7 +13,7 @@ namespace RLD.Extranet.Controllers
                                                                      new Dictionary<string, string>
                                                                      {
                                                                          { "Header1", "PropertyName1" },
-                                                                         { "Header1", "PropertyName2" },
+                                                                         { "Header2", "PropertyName2" },
                                                                      },
                                                                      new List<Object>()
                                                                      );
