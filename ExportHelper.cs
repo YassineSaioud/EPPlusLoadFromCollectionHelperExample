@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace RLD.Extranet.Helpers
+namespace Helpers
 {
     public static class ExportHelper
     {
